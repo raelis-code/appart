@@ -4,7 +4,7 @@
 
 Cribb is a modern real estate platform that revolutionizes the way you find apartments. Instead of static images, Cribb brings listings to life with a TikTok-style vertical video feed, making apartment hunting as engaging and effortless as scrolling through your favorite social media.
 
-![Cribb Banner](https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3)
+![Cribb Banner]
 
 ## ✨ Key Features
 
@@ -20,11 +20,9 @@ Cribb is a modern real estate platform that revolutionizes the way you find apar
 - **Frontend**: [React 18](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [Shadcn UI](https://ui.shadcn.com/) + [Radix UI](https://www.radix-ui.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Backend**: [Firebase](https://firebase.google.com/) (Firestore)
-- **State Management**: [TanStack Query](https://tanstack.com/query/latest)
 - **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 
 ## 🛠️ Getting Started
@@ -41,10 +39,9 @@ Cribb is a modern real estate platform that revolutionizes the way you find apar
    git clone https://github.com/your-username/apartment-reels-main.git
    cd apartment-reels-main
    ```
-
 2. **Install dependencies**
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. **Set up Environment Variables**
@@ -60,12 +57,12 @@ Cribb is a modern real estate platform that revolutionizes the way you find apar
 
 4. **Run the development server**
    ```bash
-   pnpm dev
+   npm run dev
    ```
 
 5. **Build for production**
    ```bash
-   pnpm build
+   npm run build
    ```
 
 ## 📂 Project Structure
